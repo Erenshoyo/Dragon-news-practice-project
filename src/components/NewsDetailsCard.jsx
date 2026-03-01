@@ -10,7 +10,7 @@ const NewsDetailsCard = ({ news }) => {
         src={news.image_url}
         alt={news.title}
       />
-      <h2 className="text-2xl">{news.title}</h2>
+      <h2 className="text-2xl font-semibold">{news.title}</h2>
       <p>{news.details}</p>
       <Link className="btn btn-secondary" to={`/category/${news.category_id}`}>
         <div className="flex justify-start items-center gap-3">

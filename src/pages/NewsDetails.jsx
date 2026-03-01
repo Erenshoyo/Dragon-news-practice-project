@@ -20,12 +20,12 @@ const NewsDetails = () => {
       <header className="mt-12">
         <Header></Header>
       </header>
-      <main className="grid grid-cols-12 gap-5 py-5">
-        <section className="col-span-9">
+      <main className="grid grid-cols-1 lg:grid-cols-12 gap-5 py-5">
+        <section className="col-span-1 lg:col-span-9">
           <h2 className="font-semibold mb-5">News Details</h2>
           <NewsDetailsCard news={news}></NewsDetailsCard>
         </section>
-        <aside className="col-span-3">
+        <aside className="col-span-1 lg:col-span-3">
           <RightAside></RightAside>
         </aside>
       </main>
